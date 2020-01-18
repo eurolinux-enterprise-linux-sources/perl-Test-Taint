@@ -1,7 +1,7 @@
 Summary:        Tools to test taintedness
 Name:           perl-Test-Taint
 Version:        1.06
-Release:        5%{?dist}
+Release:        3%{?dist}
 License:        GPL+ or Artistic
 Group:          Development/Libraries
 URL:            http://search.cpan.org/dist/Test-Taint/
@@ -63,12 +63,6 @@ make test
 %{_mandir}/man3/*
 
 %changelog
-* Fri Jan 24 2014 Daniel Mach <dmach@redhat.com> - 1.06-5
-- Mass rebuild 2014-01-24
-
-* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 1.06-4
-- Mass rebuild 2013-12-27
-
 * Thu Jul 11 2013 Jitka Plesnikova <jplesnik@redhat.com> - 1.06-3
 - Add BR perl(constant)
 
